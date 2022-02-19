@@ -34,7 +34,8 @@ a:visited{
 
 a:hover{
     text-decoration: none;
-    color:white
+    color:#D4C8FC;
+    transform: scale(4.1);
 }
 
 a:link{
@@ -57,7 +58,8 @@ li{
 }
 
 .about{
-    background-color: #373535;
+    background: linear-gradient(35deg, #CCFFFF, #9C82F6);
+    
     color: white;
     border-radius: 8px;
     text-align: center;
@@ -99,6 +101,19 @@ h1{
     size: 90px;
     height: 90px;
 }
+
+.project{
+    background-color: #373535;
+    color: white;
+    border-radius: 8px;
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.2em;
+    padding: 50px;
+    margin: 25px 0 25px 0;
+    text-align: center;
+
+}
+
 .contact{
     text-align: center;
 }
@@ -106,6 +121,10 @@ h1{
 img{
     size: 50px;
     height: 50px;
+}
+
+img:hover{
+    transform: scale(1.2);
 }
 
 

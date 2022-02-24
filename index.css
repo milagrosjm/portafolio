@@ -22,6 +22,10 @@ ul{
     list-style-type: none;
 }
 
+li{
+    list-style-type: none;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -43,13 +47,12 @@ a:link{
     color:white
 }
 
-li{
+.horizontal-list{
     display: inline;
     margin: 0 15px 0 10px;
 }
 
 .name{
-    backdrop-filter: blur(4px);
     padding: 30px;
     margin: 250px;
     color:#F0E4E4;
@@ -85,21 +88,16 @@ h1{
     text-align: center;
 }
 
-.education-list-left{
-    font-size: 1em;
-    float: left;
-    
-}
-
-.education-list-right{
-    font-size: 1em;
-    float: right;
-    
+td{
+    padding-left: 190px;
+    padding-right: 190px;
 }
 
 .skills{
-    size: 90px;
     height: 90px;
+    width: 90px;
+    background-color: #8C918E;
+    border-radius: 50%;
 }
 
 .project{
@@ -111,14 +109,13 @@ h1{
     padding: 50px;
     margin: 25px 0 25px 0;
     text-align: center;
-
 }
 
 .contact{
     text-align: center;
 }
 
-img{
+.contact-img{
     size: 50px;
     height: 50px;
 }

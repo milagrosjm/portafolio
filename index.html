@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <title>Portafolio</title>
         <link href="https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,600;1,200&family=Mohave:wght@300&family=Staatliches&display=swap" rel="stylesheet">
@@ -7,19 +8,19 @@
     </head>
 
     <body class="background">
-        <div class="title"> 
+        <nav class="title"> 
             <ul> 
-                <li><a href="#aboutMe">Sobre mi</a></li>
-                <li><a href="#education">Formación</a></li>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#contactInfo">Contacto</a></li>
+                <li class="horizontal-list"><a href="#aboutMe">Sobre mi</a></li>
+                <li class="horizontal-list"><a href="#education">Formación</a></li>
+                <li class="horizontal-list"><a href="#">Proyectos</a></li>
+                <li class="horizontal-list"><a href="#contactInfo">Contacto</a></li>
             </ul> 
-        </div>
+        </nav>
 
-        <div class="name">
+        <header class="name">
             <h1 style="font-size: 3em;">Milagros Julieta Molina</h1>
             <h2>Estudiante de Ingeniería en Sistemas</h2> 
-        </div>
+        </header>
 
         <div class="about" id="aboutMe">
             <p>Soy estudiante avanzada de la carrera Ingeniería en Sistemas de Información en la UTN Regional Cordoba. Actualmente estoy realizando un curso de Desarrollador Web Full Stack.</p>
@@ -27,47 +28,70 @@
 
         <div class="education" id="education">
             <h1>Formación</h1>
-            <ol>
-                <li class="education-list-left"> <strong>Ingeniería en Sistemas de Informacion</strong></li>
-                <li class="education-list-right">2019 - Actualidad</li><br>
-                <li class="education-list-left"> UTN - Facultad Regional Cordoba </li> <br>
-                <li class="education-list-left"><strong>Bachiller en Ciencias Sociales y Humanidades</strong></li>
-                <li class="education-list-right">2012 - 2017</li><br>
-                <li class="education-list-left"> Instituto General San Martin </li> <br>
-            </ol>
+            <center><table>
+                <tr>
+                    <td class="education-list-left"><strong>Ingeniería en Sistemas de Informacion</strong></td>
+                    <td class="education-list-right">2019 - Actualidad</td>
+                </tr>
+                <tr>
+                    <td class="education-list-left">UTN - Facultad Regional Cordoba</td>
+                </tr>
+            </table></center>
+            
             <h1>Formación Complementaria</h1>
-            <ol>
-                <li class="education-list-left"><strong>Plan Argentina Programa - Primer Etapa </strong></li>
-                <li class="education-list-right">2022 - Actualidad</li><br>
-                <li class="education-list-left"> Ministerio de Desarrollo Productivo</li> <br>
-                <li class="education-list-left"><strong>Introduccion al Desarrollo Web I</strong></li>
-                <li class="education-list-right">2022</li><br>
-                <li class="education-list-left"> Google Activate </li> <br>
-                <li class="education-list-left"><strong>Excel para Empresas PYME</strong></li>
-                <li class="education-list-right">2020</li><br>
-                <li class="education-list-left"> CAME Educativa </li> <br>
-                <li class="education-list-left"><strong>Consolidacion de la lengua Inglesa (B2)</strong></li>
-                <li class="education-list-right">2018</li><br>
-                <li class="education-list-left"> UNC - Facultad de Lenguas </li> <br>
-            </ol>
+            <center><table>
+                <tr>
+                    <td class="education-list-left"><strong>Plan Argentina Programa - Primer Etapa</strong></td>
+                    <td class="education-list-right">2022 - Actualidad</td>
+                </tr>
+                <tr>
+                    <td class="education-list-left">Ministerio de Desarrollo Productivo</td>
+                </tr>
+
+                <tr>
+                    <td class="education-list-left"><strong>Introduccion al Desarrollo Web I y II</strong></td>
+                    <td class="education-list-right">2022</td>
+                </tr>
+                <tr>
+                    <td class="education-list-left">Google Activate</td>
+                </tr>
+
+                <tr>
+                    <td class="education-list-left"><strong>Excel para Empresas PYME</strong></td>
+                    <td class="education-list-right">2020</td>
+                </tr>
+                <tr>
+                    <td class="education-list-left">CAME Educativa</td>
+                </tr>
+
+                <tr>
+                    <td class="education-list-left"><strong>Consolidacion de la lengua Inglesa (B2)</strong></td>
+                    <td class="education-list-right">2018</td>
+                </tr>
+                <tr>
+                    <td class="education-list-left">UNC - Facultad de Lenguas</td>
+                </tr>
+            </table></center>
+            
             <h1>Competencias</h1>
             <ul>
-                <li><img class="skills" src="https://assets-global.website-files.com/5aa7081220a301f2a3644f3b/5c363b1f43fb7bbc94f002c3_Website_Reporting%20Language%20Icons_Csharp.png"></li>
-                <li><img class="skills" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png"></li>
-                <li><img class="skills" src="https://www.dataprix.com/files/uploads/103image/logo_sqlserver.png"></li>
+                <li class="horizontal-list skills-bk"><img class="skills" src="https://assets-global.website-files.com/5aa7081220a301f2a3644f3b/5c363b1f43fb7bbc94f002c3_Website_Reporting%20Language%20Icons_Csharp.png"></li>
+                <li class="horizontal-list skills-bk"><img class="skills" src="https://4.bp.blogspot.com/-NNF6wg11eKQ/V-BL3PRvsUI/AAAAAAAAGPw/AtqUtauHxJ4_N2KAuhb1_InjrglDy1L0wCPcB/s1600/Other-python-icon.png"></li>
+                <li class="horizontal-list skills-bk"><img class="skills" src="https://img.icons8.com/color/480/microsoft-sql-server.png"></li>
             </ul>
         </div>
 
         <div class="project">
-
         </div>
+
+        <footer class="contact" id="contactInfo">
+            <ul> 
+                <li class="horizontal-list"><a href="https://www.linkedin.com/in/milagros-julieta-molina-5a399a22a/" target="_blank"><img class="contact-img" src="https://acelerandoempresas.com/wp-content/uploads/2020/04/LinkedIn_logo_initials-650x650.png"></a></li>
+                <li class="horizontal-list"><a href="https://github.com/milagrosjm" target="_blank"><img class="contact-img" src="https://cdn.pixabay.com/photo/2017/08/05/11/24/logo-2582757_960_720.png"></a></li>
+                <li class="horizontal-list"><a href="mailto:milimolina.mm@gmail.com"><img class="contact-img" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg"></a></li>
+            </ul> 
+        </footer>
+
     </body>
 
-    <footer class="contact" id="contactInfo">
-        <ul> 
-            <li><a href="https://www.linkedin.com/in/milagros-julieta-molina-5a399a22a/" target="_blank"><img src="https://acelerandoempresas.com/wp-content/uploads/2020/04/LinkedIn_logo_initials-650x650.png"></a></li>
-            <li><a href="https://github.com/milagrosjm" target="_blank"><img src="https://cdn.pixabay.com/photo/2017/08/05/11/24/logo-2582757_960_720.png"></a></li>
-            <li><a href="mailto:milimolina.mm@gmail.com"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg"></a></li>
-        </ul> 
-    </footer>
 </html>
